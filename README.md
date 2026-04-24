@@ -13,7 +13,7 @@ Conclusion
 SIHNet showed excellent performance in automatically identifying SIH-induced SDH on CT images. With its strong interpretability, SIHNet may serve as a clinical decision support tool.
 Keywords: Spontaneous intracranial hypotension, Subdural hematoma, CT diagnosis, Deep learning, Convolutional neural network
 
-Our implementation is based on the publicly available MedicalNet framework (https://github.com/Tencent/MedicalNet), with task-specific modifications to adapt the model for SIH-related SDH classification.
+Our model is developed based on the publicly available MedicalNet framework (https://github.com/Tencent/MedicalNet), with several task-specific modifications, including architectural redesign and task-oriented optimization, to better capture CT imaging features of SIH-induced SDH.
 
 1. Extract the compressed files:
    - `feature_case/layer4_feature.rar`
